@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle slot-injector",
+        "command": "slot-injector:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "slot-injector",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "slot-injector:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
